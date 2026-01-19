@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-model = joblib.load('Heart_Disease_Model.pkl')
+model = joblib.load("Heart_Disease_Model.pkl")
 
 st.title("Heart Disease Predictor")
 st.info("AUC 0.921 | Beats ECG 60-70% sensitivity")
