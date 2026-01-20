@@ -67,8 +67,8 @@ The model achieves an AUC score of 92.1% by taking 0.40 as our cutoff probabilit
 
 <img width="1700" height="1424" alt="ROC_AUC" src="https://github.com/user-attachments/assets/fdfbc8ab-3342-4ffa-8432-76935cbf500a" />
 
-## Improvement areas:
+# Improvement areas:
 
-1. Adjusting the cutoff to try to minimise more false positives, since z
-
-
+1. Adjusting the cutoff to try to minimise more false positives, since I mainly prioritised reducing false negatives at all costs.
+2. Incorporating more predictors into the algorithm. Three predictors tied for being the most correlated with heart disease, but I selectively chose only one that seemed most relevant to me.
+3. Changing the model type to more commonly-used ones in the industry (and more powerful), such as XGBoost or LightGBM. I stuck with a Logistic Regression from statsmodels, since I wanted to incorporate skills taught to me in my Data Science class.
