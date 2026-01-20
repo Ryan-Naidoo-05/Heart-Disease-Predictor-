@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.graph_objects as go
 
 prob = 0.0
-model = joblib.load("../plots_and_model/Heart_Disease_Model.pkl")
+model = joblib.load("Heart_Disease_Model.pkl")
 
 #Application configuration:
 st.set_page_config(
